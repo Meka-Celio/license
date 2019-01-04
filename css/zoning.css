@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background: ivory;
+}
+
+
+/* --------------------------------
+HEader
+--------------------------------- */
+body>header{
+	padding: 2%;
+}
+body>header>div{
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+body>header>div>a{
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	background: url('../image/ICON.png');
+	background-size: 100% 100%;
+}
+body>header>div>nav{
+	display: inline-block;
+	width: 600px;
+}
+body>header>div>nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+body>header>div>nav ul li{
+	display: inline-block;
+	width: 33%;
+}
+body>header>div>nav ul li a{
+	display: block;
+	padding: 5%;
+	border-radius: 15px;
+	color: rgb(0, 100, 0);
+	font-size: 1.2em;
+}
+body>header>div>nav ul li a:hover{
+	color: ivory;
+	transition: 1s;
+	background-color: black;
+}
+/* --------------------------
+Banner
+------------------------------ */
+.banner{
+	padding: 2%;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(220,220,220,0.5);
+	margin-bottom: 2%;
+}
+.banner h1{
+	display: inline-block;
+}
+
+/* ---------------------------
+Slider
+------------------------------ */
+body>section{
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider{
+	height: 90%;
+	width: 80%;
+}
+.slider ul{
+	list-style-type: none;
+	text-align: center;
+}
+.slider ul li{
+	height: 100%;
+	width: 100%;
+	border: 8px solid black;
+	border-radius: 10px;
+}
+
+.slider ul li img{
+	width: 30%;
+}
+
+/* -------------------------
+Partie centrale
+--------------------------- */
+main{
+	background-color: rgba(220,220,220,0.5);
+}
+/* -----------------------------
+Promotion
+----------------------- */
+.promotion{
+	min-height: 600px;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+.promotion h2{
+	margin-bottom: 2%;
+}
+
+.promotion article{
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin: 0 2%;
+}
+.promotion article header{
+	margin: 2% 0;
+}
+.promotion article section{
+	width: 70%;
+	margin: 1% auto;
+}
+.promotion article section img{
+	width: 100%;
+}
+.promotion article footer{
+	padding: 2%;
+	line-height: 25px;
+}
+.promotion article footer p{
+	width: 80%;
+	margin: 0 auto;
+}
+.promotion article footer h4{
+	margin: 3% auto;
+}
+/* --------------------------
+Nouveaute
+----------------------------- */
+
+.nouveaute{
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding: 2%;
+	background: white;
+}
+.nouveaute h2{
+	text-align: center;
+	margin-bottom: 2%;
+}
+.nouveaute > div{
+	padding: 3%;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.nouveaute > div article{
+	width: 20%;
+	padding: 2%;
+}
+.nouveaute > div article header{
+	margin:4% 0;
+}
+.nouveaute > div article section{
+	margin :  5% 0;
+}
+.nouveaute > div article section img{
+	width: 100%;
+}
+.nouveaute > div article footer{
+	margin : 3% 0;
+	line-height: 25px;
+}
+.nouveaute > div article footer h4{
+	margin: 3% 0;
+}
+
+/* ---------------------------
+Footer
+------------------------------- */
+body > footer{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: navy;
+	color: ivory;
+}
